@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherPro - Previsão do Tempo</title>
+    <meta name="description" content="Aplicativo moderno de previsão do tempo com interface elegante">
+    <meta name="keywords" content="previsão, tempo, clima, temperatura, weather">
+    <meta property="og:title" content="WeatherPro - Previsão do Tempo">
+    <meta property="og:description" content="Aplicativo moderno de previsão do tempo">
+    <meta name="twitter:title" content="WeatherPro - Previsão do Tempo">
+    <meta name="twitter:description" content="Aplicativo moderno de previsão do tempo">
+    
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react@18/umd/react.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div id="root"></div>
+    
+    <script type="text/babel" src="components/SearchBar.js"></script>
+    <script type="text/babel" src="components/WeatherCard.js"></script>
+    <script type="text/babel" src="components/ForecastCard.js"></script>
+    <script type="text/babel" src="components/LoadingSpinner.js"></script>
+    <script type="text/babel" src="utils/weatherAPI.js"></script>
+    <script type="text/babel" src="app.js"></script>
+</body>
+</html>
