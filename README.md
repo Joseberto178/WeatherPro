@@ -17,7 +17,7 @@ WeatherPro é um aplicativo web moderno e responsivo que exibe a previsão do te
 
 ## 🔗 Link para visualização online
 
-👉 [https://weather-pro-phi.vercel.app/](https://seu-usuario.github.io/weatherpro)
+👉 [https://weather-pro-phi.vercel.app/](https://weather-pro-phi.vercel.app/)
 
 ## 🧪 Tecnologias utilizadas
 
